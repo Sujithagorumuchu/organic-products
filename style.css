@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+    margin:0%; 
+    /* border:1px solid black;   */
+}
+.navbar{
+    background-color: #e91e63;
+}
+.navbar-brand{
+    width:10%;
+}
+.nav-link{
+    color:white;
+    font-weight:bold;
+}
+/* home section */
+.bgimg{
+    background-image:url("https://img.freepik.com/free-photo/colorful-macaroons-rose-leaves-arranged-waffle-cone-against-pink-background_23-2147942409.jpg?t=st=1734153028~exp=1734156628~hmac=4628e5f40e3c683e1b3f8979cf5e73e738aefaed1b18d26ca43fb71009cb844b&w=900");
+    width:100vw;
+    height:70vh;
+    background-size:cover;
+    background-position:center;
+}
+.hpart h1{
+    color:white;
+    text-shadow:1px 2px 3px black;
+}
+.hpart .btn{
+    font-weight:bold;
+}
+/* about */
+.acontent h1{
+    color:#e91e63;
+    margin-top:3%;
+}
+.acontent p{
+    color:green;
+    margin-top:3%;
+    line-height:30px;
+}
+/* products */
+.card-img-top{
+    width:70%;
+}
+.card{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.card-title{
+    color:#e91e63;
+}
+.card-text{
+    color:green;
+    font-weight:bold;
+}
+/* payment */
+.input-group-text{
+    background-color: #e91e63;
+    color:white;
+    border:none;
+    font-weight:bold;
+}
+/* contact */
+.form-label{
+    color:#e91e63;
+    font-weight:bold;
+}
+/* footer */
+.footer{
+    background-color: #e91e63;
+}
+.fhead{
+    color:white;
+    font-weight:bold;
+    text-decoration: underline 4px solid gold;
+}
+.icons .fa-brands{
+    font-size:25px;
+    color:whitesmoke;
+    margin:1%;
+}
+.icons .fa-brands:hover{
+    color:greenyellow;
+}
